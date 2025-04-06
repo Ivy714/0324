@@ -52,13 +52,6 @@
   --contrast-color: #000000;
 }
 
-.text-border {
-  border: 2px solid black; 
-  padding: 20px;            
-  border-radius: 10px;      
-  display: inline-block;    
-  background-color: white;  
-}
 
 
 /* Smooth scroll */
