@@ -52,27 +52,12 @@
   --contrast-color: #000000;
 }
 
-.idol-name {
-  display: inline-block;
-  padding: 6px 12px;
-  border: 2px solid transparent; /* 用來搭配漸層 */
-  border-radius: 20px;
-  background-image:
-    linear-gradient(white, white), /* 背景白色 */
-    linear-gradient(135deg, #fcb1ff, #b9b6ff); /* 粉紫漸層邊框 */
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  font-weight: bold;
-  color: #7d2dbb; /* 柔紫文字 */
-  margin: 0 6px;
-  font-size: 16px;
-  transition: 0.3s ease;
-  box-shadow: 0 0 10px #f3d1ff80; /* 柔柔的光暈 */
-}
-
-.idol-name:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 16px #e1b0ffcc;
+.text-border {
+  border: 2px solid black; /* 黑色邊框 */
+  padding: 20px;            /* 內距，讓邊框和文字有距離 */
+  border-radius: 10px;      /* 圓角邊框 */
+  display: inline-block;    /* 讓邊框大小剛好包住內容 */
+  background-color: white;  /* 如果你想要背景是白色 */
 }
 
 
