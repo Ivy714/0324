@@ -53,11 +53,11 @@
 }
 
 .text-border {
-  border: 2px solid black; /* 黑色邊框 */
-  padding: 20px;            /* 內距，讓邊框和文字有距離 */
-  border-radius: 10px;      /* 圓角邊框 */
-  display: inline-block;    /* 讓邊框大小剛好包住內容 */
-  background-color: white;  /* 如果你想要背景是白色 */
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: white;
 }
 
 
