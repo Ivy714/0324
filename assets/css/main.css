@@ -52,7 +52,9 @@
   --contrast-color: #000000;
 }
 
-
+.typed {
+  color: #000080;
+}
 
 
 /* Smooth scroll */
